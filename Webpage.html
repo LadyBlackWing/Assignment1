@@ -6,22 +6,30 @@
     <title>My Gaming Blog V2</title>
 </head>
 
-<body>
+<body id="top">
 
 <header>
+    <nav>
+        <ul>
+            <li><a href="#top">Home</a></li>
+            <li><a href="#about">About me</a></li>
+        </ul>
+    </nav>
+
     <h1> <!-- h1 = First heading (huvudrubrik) -->
-        My Gaming Blog
+        My Gaming webpage!
     </h1>
 
     <p>
-        A gaming blog where I dive into games, chaos, opinions, and everything in between. <br/>
-        If it has pixels, jump scares, nerdy stuf or a ridiculous physics engine,  — I’m talking about it.
+        A gaming webpage where I dive into games, chaos, opinions, and everything in between. <br>
+        If it has pixels, jump scares, nerdy stuff or a ridiculous physics engine,  — I’m talking about it.
     </p>
 </header>
 
 <main>
 
-    <section>
+    <!-- ABOUT SECTION -->
+    <section id="about">
         <h2> <!-- (rubrik 2)-->
             About the blog and me
         </h2>
@@ -55,17 +63,31 @@
             In my next post, I’ll share what games I’m playing right now and some of my thoughts about them — so stay tuned!
         </p>
  
-         <!-- DROPDOWN LIST JUST BECASE I WANTED TO HAVE DROP DOWN -->
-    <section>
-        <h3>Fun facts:</h3>  
+         
+    </section>
 
-        <details>
-            <summary>
+    <section id="funfacts">
+        <h3>Fun facts:</h3>
+
+        <!-- DROPDOWN LIST JUST BECASE I WANTED TO HAVE DROP DOWN -->
+        <details> <!-- = Creates a little box you can open and close - "click and see more"   -->
+            <summary><!-- The text you click to open the box -->
                 Do you have any unusual games?
             </summary>
-            <p>
-                Yes. Rule of Rose till Playstation 2. Det är ett av de ovanligaste och tyvärr dyraste spelen till PS2.
-            </p>
+
+            <p> Yes! Two of the most special games in my collection are <strong>Rule of Rose</strong> and <strong>Obscure</strong> for the PS2 — both cult classics that are extremely rare. </p>
+
+            <p> <strong>Rule of Rose</strong> is one of the most infamous PS2 titles ever released. It had an extremely limited print run due to moral panic and censorship rumors at the time, which made it disappear from store 
+                shelves almost immediately, and it was even banned from a lot of countries and wasn't even allowed to be released there, like Italy. The mix of psychological horror, unique aesthetics, and the controversies surrounding
+                the game turned it into one of the most prized and highly sought‑after collector’s items of the entire PS2 era.
+            </p> 
+
+            <p> <strong>Obscure</strong> stands out in a very different way. It had almost no marketing and was printed in small quantities, especially in Europe, which makes physical copies hard to find today. 
+                On top of that, <em>Obscure was one of the very first survival horror games to fully commit to real co‑op gameplay. There were a few experiments before it, but Obscure was the game that brought 
+                co‑op horror to a wider audience.</em> It feels like playing a 2000s teen horror movie — high school setting, B‑movie vibes, and all — and that charm makes it even more fun to own now. 
+            </p> 
+            
+            <p> Having both on the shelf feels like holding two different pieces of gaming history </p>
         </details>
 
         <details>
@@ -73,7 +95,7 @@
                 Something you might not know about me
             </summary>
             <p>
-                I'm allergic to fur. But I would love to have a sweet cat on my lap that purrs when I play. Or a dog.
+                I'm allergic to fur, but it would be so cozy to have a cat purring on my lap – or a dog by my side.
             </p>
 
         </details>
@@ -91,13 +113,12 @@
     </section>
 
         <p>
-            <time datetime="2026-01-15">
-                <i>
+            <time datetime="2026-01-15"> <!-- Datum-->
+                <i> <!-- kursiv-->
                     Published: 2026-01-15
                 </i>
             </time>
         </p>
-    </section>
 
     <!-- NEXT BLOGPOST -->
     <!-- GAMES I'M PLAYING NOW -->
@@ -117,8 +138,6 @@
             Games I’m Playing Right Now
         </h3>
 
-        <!-- FÅ SKITEN ATT FUNKA SÅ MAN KOMMER TILL RÄTT PLATS-->
-        <nav> 
     <ul> 
         <li>
             <a href="#spiderman-remastered">Spider-Man Remastered – Review</a>
@@ -129,81 +148,108 @@
         </li> 
 
         <li>
-            <a href="#re4-remake">Evil 4 Remake – Review</a>
+            <a href="#re4-remake">Resident Evil 4 Remake – Review</a>
         </li> 
     </ul>
- </nav> 
+ 
     </article>
 
-    <article id="spiderman-remastered"><strong>🕷️Spider-Man Remastered (PS5 Pro)</strong> <!-- Emojis fungerar rakt in i HTML dokumentet pga <meta charset="UTF-8"> raden i början -->
+    <article id="spiderman-remastered"> <h2>🕷️Spider-Man Remastered (PS5 Pro)</h2> <!-- Emojis work directly in an HTML document thanks to the <meta charset="UTF-8"> line at the beginning -->
 
-        
         <p>
             Spider‑Man Remastered isn’t just an upgrade — it’s a full‑on <strong>transformation</strong>. Swinging through New York has always been one of gaming’s most satisfying experiences, 
             but on PS5 Pro, it becomes something else entirely. Faster, smoother, sharper, and more alive than ever before. This is the kind of remaster that doesn’t just polish the original — it elevates it.
         </p>
 
         <p> 
-            🌆 A City That Finally Feels Alive.
+            🌆 A city that finally feels alive.
              The first thing you notice is the light.
              New York doesn’t just look brighter — it breathes. Thanks to ray tracing and improved reflections, every glass window, every car hood, every skyscraper panel mirrors the world around you with stunning clarity. 
              When you swing past a building and see the entire city reflected in the windows, it’s hard not to slow down just to admire it.
              On PS4, the city was impressive. On PS5 Pro, it’s jaw‑dropping.
              
              Traffic glints realistically, puddles shimmer, and even the smallest details — like neon signs bouncing off wet pavement — make the world feel richer and more immersive.
+        </p>
 
-🕸️ Swinging Has Never Felt This Good<br/>
-Let’s be honest: swinging is the heart of any Spider‑Man game. And here? It’s pure magic.
-The improved framerate makes every movement buttery smooth. You feel the momentum, the weight, the speed — 
-and the PS5 Pro’s power means the city loads instantly, no stutters, no pop‑ins, just pure flow. It’s the closest gaming has ever come to making you feel like Spider‑Man.
-There were moments where I caught myself grinning mid‑swing, just because it felt so good. <br> <br>
+        <p>
+            🕸️ Swinging has never felt this good<br>
+            Let’s be honest: swinging is the heart of any Spider‑Man game. And here? It’s pure magic.
+            The improved framerate makes every movement buttery smooth. You feel the momentum, the weight, the speed — 
+            and the PS5 Pro’s power means the city loads instantly, no stutters, no pop‑ins, just pure flow. It’s the closest gaming has ever come to making you feel like Spider‑Man.
+            There were moments where I caught myself grinning mid‑swing, just because it felt so good.
+        </p>
 
-🥊 Combat That Hits Harder Than Ever<br>
-The combat system was already fantastic, but the remaster makes it shine.
-Animations are cleaner, particle effects pop more, and the DualSense controller adds subtle tension and feedback that makes every punch, dodge, and web‑shot feel tactile.
+        <p>
+            🥊 Combat that hits harder than ever<br>
+            The combat system was already fantastic, but the remaster makes it shine.
+            Animations are cleaner, particle effects pop more, and the DualSense controller adds subtle tension and feedback that makes every punch, dodge, and web‑shot feel tactile. <br>
+        
+            When you yank a weapon out of an enemy’s hands and feel the controller push back, it’s incredibly satisfying.
+        </p>
 
-When you yank a weapon out of an enemy’s hands and feel the controller push back, it’s incredibly satisfying.<br/>
+        <p> 
+            🧭 Quick Story Recap<br>
+            In Spider‑Man Remastered, you step into the suit of Peter Parker at a point in his life where he’s already an experienced hero. 
+            New York is under threat from a rising criminal empire, supervillains are emerging from the shadows, and Peter must balance his personal life,
+            his job, and his responsibility as Spider‑Man. The story blends emotional moments, high‑stakes action, and cinematic 
+            set pieces that feel straight out of a blockbuster movie.<br>
+        </p>
 
-</p>
+        
+             <h3>🔍 5 Things <strong>you</strong> probably didn’t know about Spider‑Man remastered</h3>
+        
+            <ol>
+                <li>
+                    <strong>The remaster isn’t just sharper — It’s rebuilt</strong><br>
+                            Many assets were reworked from the ground up for PS5, including lighting, reflections, and character models.
+                </li>
 
-🧭 Quick Story Recap<br/>
-In Spider‑Man Remastered, you step into the suit of Peter Parker at a point in his life where he’s already an experienced hero. 
-New York is under threat from a rising criminal empire, supervillains are emerging from the shadows, and Peter must balance his personal life,
-his job, and his responsibility as Spider‑Man. The story blends emotional moments, high‑stakes action, and cinematic 
-set pieces that feel straight out of a blockbuster movie.<br/>
+                <li>
+                    <strong>Ray‑Traced reflections change everything</strong><br>
+                            Windows, cars, skyscrapers, puddles — everything reflects the world around you in real time.
+                </li>
 
-🔍 5 Things You Probably Didn’t Know About Spider‑Man Remastered <br/>
-1. The Remaster Isn’t Just Sharper — It’s Rebuilt
-Many assets were reworked from the ground up for PS5, including lighting, reflections, and character models. It’s not just a resolution boost — it’s a full visual overhaul.
+                <li>
+                    <strong>The city has more life than before</strong><br>
+                            Crowds are denser, traffic behaves more naturally, and NPC animations have been improved.
+                </li>
 
-2. Ray‑Traced Reflections Change Everything
-Windows, cars, skyscrapers, puddles — everything reflects the world around you in real time. Swing past a glass building and you’ll see the entire city mirrored behind you.
+                <li>
+                    <strong>Combat animations are smoother and more responsive</strong><br>
+                            Higher framerates make dodges, combos, and web‑attacks feel more fluid.
+                </li>
 
-3. The City Has More Life Than Before
-Crowds are denser, traffic behaves more naturally, and NPC animations have been improved. New York feels busier and more believable than in the PS4 version.
+                <li>
+                    <strong>Fast travel is practically instant</strong><br>
+                            On PS5 Pro, fast travel is so fast it almost feels like cheating.
+                </li>
+            </ol>
 
-4. Combat Animations Are Smoother and More Responsive
-The PS5 Pro’s power allows for higher framerates, making dodges, combos, and web‑attacks feel more fluid and satisfying.
+    <section>
+        <h3>⭐ Final Verdict</h3>
 
-5. Fast Travel Is Practically Instant
-On PS4, fast travel had loading screens.
-On PS5 Pro, it’s so fast it almost feels like cheating — blink and you’re already across the city.<br/>
+        <p>
+            Spider‑Man Remastered on PS5 Pro is the definitive way to experience one of the best superhero games ever made. 
+            The improved reflections, lighting, performance, and overall polish make swinging through New York feel fresh, 
+            modern, and unbelievably fun.
+       </p>
 
-⭐ Final Verdict<br/>
-Spider‑Man Remastered on PS5 Pro is the definitive way to experience one of the best superhero games ever made. The improved reflections, lighting, performance, and overall polish make swinging through New York feel fresh, modern, and unbelievably fun.
+        <p>
+            Whether you’ve played the original or you’re stepping into the suit for the first time, this version is absolutely worth your time.
+        </p>
 
-Whether you’ve played the original or you’re stepping into the suit for the first time, this version is absolutely worth your time.
+         <p>
+            And honestly? I can barely wait until I finally have time to dive into Spider‑Man 2. Knowing it’s built from the ground up for 
+            PlayStation 5 means it’s going to be even more phenomenal — bigger, faster, more detailed, and more immersive than anything before it.
+        </p>
 
-And honestly?
-I can barely wait until I finally have time to dive into Spider‑Man 2. Knowing it’s built from the ground up for PlayStation 5 means it’s going to be even more phenomenal — bigger, faster, more detailed, and more immersive than anything before it.
         <p>
             Gaming is all about adventure, challenge, and fun. These are the games keeping me busy right now!
         </p>
-
+    </section>
     </article>
 
     <!-- FULL REVIEW: R.E.P.O -->
-    <article>
        <article id="repo-review">
     <h2>🎮 R.E.P.O. – Review</h2>
 
@@ -214,7 +260,7 @@ I can barely wait until I finally have time to dive into Spider‑Man 2. Knowing
         It’s the kind of game that doesn’t just scare you, it makes you laugh because you’re scared.
     </p>
 
-    <p>s
+    <p>
         In R.E.P.O., you play as a group of small, clumsy-looking robots working as a recovery team. 
         Your mission is to enter abandoned, unstable locations and retrieve valuable objects. 
         The problem? These places are haunted, dangerous, and completely unforgiving. 
@@ -304,9 +350,6 @@ I can barely wait until I finally have time to dive into Spider‑Man 2. Knowing
 
     </article>
 
- 
-    </article>
-
     <!-- FULL REVIEW: RESIDENT EVIL 4 REMAKE -->
    <article id="re4-remake">
         <h2>
@@ -362,17 +405,17 @@ I can barely wait until I finally have time to dive into Spider‑Man 2. Knowing
             work together to create a constant sense of dread — even quiet moments feel dangerous.
         </p>
 
-        <h3>🔍 5 Things You Might Not Know About Resident Evil 4</h3>
+        <h3> 🔍5 Things you might not know about Resident Evil 4</h3>
 
         <ul>
             <li>
-                <strong>RE4 almost became a supernatural horror game</strong><br>
+                <strong>Resident Evil 4 almost became a supernatural horror game</strong><br>
                 Early prototypes featured hallucinations and ghost-like enemies. That version was scrapped and eventually 
                 evolved into Devil May Cry.
             </li>
 
             <li>
-                <strong>The over-the-shoulder camera reshaped modern gaming</strong><br>
+                <strong>The over-the-shoulder camera reshaped modern gaming</strong>
                 RE4’s camera design influenced franchises like Gears of War, Dead Space, and countless third-person shooters.
             </li>
 
@@ -387,27 +430,27 @@ I can barely wait until I finally have time to dive into Spider‑Man 2. Knowing
             </li>
 
             <li>
-                <strong>Knife durability is a deliberate survival-horror choice</strong><br>
+                <strong>Knife durability is a deliberate survival-horror choice</strong>
                 Unlike the infinite knife of the original, durability forces smart decision-making and resource management.
             </li>
         </ul>
 
-        <p>
-            ⭐ Final Verdict <br/>
-            Resident Evil 4 Remake strikes the perfect balance between nostalgia and modern design. 
-            It respects the legacy of the original while refining its gameplay, tone, and storytelling for a new generation.
-        </p>
+        <h3>⭐ Final Verdict</h3>
 
-        <p>
-            At the end of the day, Resident Evil 4 Remake proves that not all remakes need to reinvent the wheel — 
-            sometimes they just need to sharpen the knife, reload the shotgun, and let Leon do what he does best. 
-            It’s tense, stylish, occasionally terrifying, and somehow still fun to replay for the tenth time.
-        </p>
+            <p>
+                Resident Evil 4 Remake strikes the perfect balance between nostalgia and modern design. 
+                It respects the legacy of the original while refining its gameplay, tone, and storytelling for a new generation.
+            </p>     
 
-        <p>
-            Hop over to one of my best friends’ YouTube channel, watch him dive into Resident Evil 4 Remake, 
-            and become part of a fun and welcoming gaming community. Trust me — it’s way more fun to scream together.
-            <br>
+            <p>
+                At the end of the day, Resident Evil 4 Remake proves that not all remakes need to reinvent the wheel — 
+                sometimes they just need to sharpen the knife, reload the shotgun, and let Leon do what he does best. 
+                It’s tense, stylish, occasionally terrifying, and somehow still fun to replay for the tenth time.
+            </p>
+
+             <p>
+                 Hop over to one of my best friends’ YouTube channel, watch him dive into Resident Evil 4 Remake, 
+                and become part of a fun and welcoming gaming community. Trust me — it’s way more fun to scream together. <br>
             <a href="https://www.youtube.com/watch?v=yq_jJXHGO74&t=11s" target="_blank">GubbaGaming on Youtube</a>
         </p>
 
@@ -420,7 +463,7 @@ I can barely wait until I finally have time to dive into Spider‑Man 2. Knowing
         </p>
     </article>
 
-  
+
 
 </main>
 
