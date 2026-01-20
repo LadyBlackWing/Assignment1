@@ -2,20 +2,16 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-    <title>My Gaming Blog V2</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    
+    <title>My gaming webpage</title>
 </head>
 
 <body id="top">
 
 <header>
-    <nav>
-        <ul>
-            <li><a href="#top">Home</a></li>
-            <li><a href="#about">About me</a></li>
-        </ul>
-    </nav>
-
+    
     <h1> <!-- h1 = First heading (huvudrubrik) -->
         My Gaming webpage!
     </h1>
@@ -24,6 +20,17 @@
         A gaming webpage where I dive into games, chaos, opinions, and everything in between. <br>
         If it has pixels, jump scares, nerdy stuff or a ridiculous physics engine,  — I’m talking about it.
     </p>
+
+    <nav class="navbar">
+        <ul>
+            <li><a href="#top">Home</a></li>
+            <li><a href="#about">About me</a></li>
+            <li><a href="#about">Reviews</a></li>
+            <li><a href="#about">Blog</a></li>
+            <li><a href="#about">Contact</a></li>
+        </ul>
+    </nav>
+
 </header>
 
 <main>
@@ -154,7 +161,13 @@
  
     </article>
 
-    <article id="spiderman-remastered"> <h2>🕷️Spider-Man Remastered (PS5 Pro)</h2> <!-- Emojis work directly in an HTML document thanks to the <meta charset="UTF-8"> line at the beginning -->
+    <article id="spiderman-remastered">  
+    <img src="images/spiderman.jpg" 
+         alt="Spider-Man remastered ps5 pro" 
+         title="Spider-Man ps5 pro" 
+         class="review-image">
+
+    <h2>🕷️Spider-Man Remastered (PS5 Pro)</h2>
 
         <p>
             Spider‑Man Remastered isn’t just an upgrade — it’s a full‑on <strong>transformation</strong>. Swinging through New York has always been one of gaming’s most satisfying experiences, 
@@ -251,6 +264,11 @@
 
     <!-- FULL REVIEW: R.E.P.O -->
        <article id="repo-review">
+            <img src="images/repo.jpg" 
+            alt="r.e.p.o. game" 
+            title="R.E.P.O." 
+            class="review-image">
+
     <h2>🎮 R.E.P.O. – Review</h2>
 
     <p>
@@ -350,11 +368,14 @@
 
     </article>
 
-    <!-- FULL REVIEW: RESIDENT EVIL 4 REMAKE -->
-   <article id="re4-remake">
-        <h2>
-            🎮 Resident Evil 4 Remake – Review
-        </h2>
+    <!-- REVIEW: RESIDENT EVIL 4 REMAKE -->
+    <article id="re4-remake">
+    <img src="images/Re4Remake.jpg" 
+         alt="Resident Evil 4 Remake" 
+         title="Resident Evil 4 Remake Ps5 Pro" 
+         class="review-image">
+
+    <h2>🎮 Resident Evil 4 Remake – Review</h2>
 
         <p>
             Resident Evil 4 Remake is more than just a visual upgrade — it’s a confident and carefully crafted 
